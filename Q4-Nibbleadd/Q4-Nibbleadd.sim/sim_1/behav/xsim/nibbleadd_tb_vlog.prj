@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Q4-Nibbleadd.srcs/sources_1/new/q4_1006290.v" \
+"../../../../Q4-Nibbleadd.srcs/sim_1/new/q4_1006290_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

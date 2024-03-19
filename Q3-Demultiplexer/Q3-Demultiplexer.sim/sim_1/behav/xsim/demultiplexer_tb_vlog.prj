@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Q3-Demultiplexer.srcs/sources_1/new/q3_1006290.v" \
+"../../../../Q3-Demultiplexer.srcs/sim_1/new/q3_1006290_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
